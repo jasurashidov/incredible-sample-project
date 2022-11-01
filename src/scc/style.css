@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.incredible{
+    display: flex;
+   
+}
+.sidebar{
+    width: 450px;
+    height: 2861px;
+    background-color: #2D3E4F;
+    position: relative;
+    color: white;
+}
+.sidebar_texts{
+    position: absolute;
+    top: 206px;
+    left: 95px;
+}
+.reds{
+    color: #CF404D;
+}
+.collection>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    gap: 30px;
+    left: 50px;
+    text-transform: uppercase;
+    
+}
+.main{
+    position: relative;
+}
+.texts{
+   position: absolute;
+   top: 300px;
+   left: 300px;
+
+}
+.inc{
+    padding-left: 60px;
+}
+.button{
+ padding-left: 60px ;
+  padding-top: 20px;
+}
+.button>button{
+    width:112px ;
+    height: 47px;
+    border-radius: 5px;
+    border: none;
+   
+}
+h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.red{
+    background-color: red;
+    color: white;
+}
+.next_section{
+    position: relative;
+}
+.section{
+    position: absolute;
+    top: 0;
+}
+.next_part{
+    position: relative;
+}
+.section_part{
+    position: absolute;
+    left: calc(70% - 292px);
+    top: -2000px;
+}
+.heading{
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #313131;;
+}
+.div_block{
+    font-size: 20px;
+    color: gray;
+}
+.four_items{
+    position: relative;
+}
+.items{
+    display: flex;
+    position: absolute;
+    left: calc(60% - 292px);
+    top: 1000px;
+}
+.camera{
+padding-right:  30px;
+padding-top: 10px;
+}
+.camera>img{
+    padding-bottom: 30px;
+}
+.camera>h3{
+    padding-bottom: 20px;
+    color: #313131;
+    padding-top: 13px;
+}
+.window{
+padding-right:  30px;
+}
+.window>img{
+    padding-bottom: 30px;
+}
+.window>h3{
+     padding-bottom: 20px;
+    color: #313131;
+}
+.gayka{
+padding-right:  30px;
+}
+.gayka>img{
+    padding-bottom: 30px;
+}
+.gayka>h3{
+      padding-bottom: 20px;
+    color: #313131;
+}
+.bulut{
+padding-right:  30px;
+padding-top: 8px;
+}
+.bulut>img{
+    padding-bottom: 30px;
+}
+.bulut>h3{
+    padding-bottom: 20px;
+    color: #313131;
+    padding-top: 13px;
+}
+.red_line{
+    position: relative;
+}
+.two_texts{
+    position: absolute;
+     right: 0px;
+     top: -1400px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    width: 1111px;
+    height: 349px;
+    background-color: #CF404D;
+}
+.two_texts>h2{
+    color: #fff;
+    font-style: normal;
+  
+}
+.two_texts>a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    border: 2px solid white;
+    width: 127px;
+    height: 48px;
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   font-style: normal;
+   padding: 10px;
+   border-radius: 7px;
+}
+.lightbox{
+    position: relative;
+}
+.light_block{
+    position: absolute;
+    left: calc(70% - 292px);
+    top: -1000px;
+}
+.light_block>h2{
+    font-size: 32px;
+    line-height: 36px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+.light_block>p{
+    color: rgba(115, 115, 115, 0.74);
+    font-size: 20px;
+    line-height: 30px;
+
+}
+.pictures{
+    position: relative;
+
+}
+.img_collection{
+    position: absolute;
+    left:calc(53% - 292px) ;
+    top: -850px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.img_collection>img{
+    margin: 7px;
+    border-radius: 5px;
+}
+.contact{
+  position: relative;
+}
+
+.contact_block{
+   position: absolute;
+    left: calc(70% - 292px);
+    top: -350px;
+}
+.contact_block>h2{
+     font-size: 32px;
+    line-height: 36px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+.contact_block>p{
+    color: rgba(115, 115, 115, 0.74);
+    font-size: 20px;
+    line-height: 30px;
+}
+.inputs{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.input{
+    position: absolute;
+     left: calc(60% - 292px);
+     top: -250px;
+}
+.input_text{
+    width: 281px;
+    height: 45px;
+    border: none;
+
+}
+.input_email{
+    width: 583px ;
+    height: 111px;
+     border: none;
+}
+.high_line{
+    position: relative;
+}
+.reds_line{
+    position: absolute;
+    width:583px ;
+    height: 45px;
+    background-color: #CF404D;
+    left: calc(60% - 292px) ;
+    top: -100px;
+}
+
+
